@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Face Detection and Expression</title>
+  <meta charset="UTF-8" />
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+
+    #main {
+      position: relative;
+    }
+
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    label {
+      display: block;
+      text-transform: capitalize;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <canvas id="output"></canvas>
+    <video id="video" playsinline style="width: auto; height: auto;">
+    </video>
+  </div>
+  <div id="sliders"></div>
+  <div id="debug"></div>
+  <script src="index.js"></script>
+</body>
+
+</html>
