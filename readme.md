@@ -1,4 +1,4 @@
-# tfjs-testbench
+# tfjs-face-testbench
 
 An interactive testbench for face analysis models.
 
